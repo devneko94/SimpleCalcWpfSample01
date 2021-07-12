@@ -12,7 +12,7 @@ namespace SimpleCalcWpfSample01
     /// <summary>
     /// 共通機能クラス
     /// </summary>
-    public class Common
+    public class Commands
     {
         /// <summary>
         /// コマンドクラス（引数なしAction）
