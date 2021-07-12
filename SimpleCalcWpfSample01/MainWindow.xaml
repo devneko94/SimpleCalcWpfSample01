@@ -82,6 +82,7 @@
             <TextBox x:Name="_txtAnswer" Grid.Column="4" Width="100" Height="30"
                      FontSize="18" d:Text="3000" TextAlignment="Right" KeyDown="Control_KeyDown">
                 <TextBox.Text>
+                    <!--マルチコンバーターを使用して計算結果表示-->
                     <MultiBinding Converter="{StaticResource resMulCon}" Mode="OneWay" StringFormat="{}{0:#,0.#######}">
                         <Binding Path="OperandLeft"/>
                         <Binding Path="OperandRight"/>
